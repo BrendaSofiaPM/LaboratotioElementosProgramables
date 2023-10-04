@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 2 | Ibero Puebla</title>
+        <title>Práctica 4 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -78,14 +78,15 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Se trabajó con motores DC, neopixeles, LED RGB y servomotores, además de que se llogó a visualizar el PWM que se puede colocar en un led normal.</p>
+                        <p class="fs-6 mb-4">La práctica ayuda a comprender conceptos y analizar que se pueden obtener distintos colores de un LED RGB, solo es cuastión de que se progrmae correctamente.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
-                        
+                        <p class="fs-6 mb-4">El LED RGB es un led qeu combina los colores Red, Green, Blue.Combina los tres colores pra formar más de 16 millones de tonos de la luz y vienen representados con números entre el valor 0 y 255, un ejemplo es si se quiere poner el color rojo sería equivalente a "R=255; G=0; B=0" (UAEH,2023). </p>
+                        <p class="fs-6 mb-4">El buzzer también es conocido como zumbador ya que es un transductor de tamaño pequeño que convierte la energía en sonidos parecidos a un zumbido. "Están construidos con dos pequeñas placas una metálica y una cerámica, las cuales aprovechan este efecto, pero solo generan un click ya que los materiales cambiaron de forma, pero no regresan a su estado natural hasta que se les quita el voltaje." (UAEH,2023).</p>
+                        <p class="fs-6 mb-4">El motor DC es un motor que funciona con corriente continua y sus ventajas son que su iniciación de marcha y frenado son fáciles de controlar, así como también su velocidad (SDI,2022).</p>
+
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
                         <p class="fs-6 mb-4">Placa electrónica Arduino, un protoboard, cables, Attiny 85, 2 resistencias de 220 Ohms, 1 resistencia de 1 KOhms, 1 led, 2 botones, 1 buzzer, 1 led RGB, 1 motor DC, fuente de poder, 1 servomotor, 1 neopixel, 1 neopixel tira 5, y computadora con el programa.</p>
@@ -93,8 +94,8 @@
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Con la liga de Thinkercad siguiente: https://www.tinkercad.com/classrooms/kKxYmpPDJXs/activities/4kQsn4JC4gt se realizó la práctica al obtener y analizar los códigos e instruciiones de que es lo que se desaba hacer.</p>
+                        <p class="fs-6 mb-4">Un punto importante era la parte de los Neopixeles ya que se debían soldar y colocar en los pines corectos para el buen funcionamiento de la práctica.</p>
                         
                         <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
                             <p class="fs-6 mb-4">1_Attiny LED - 2 Botones</p>
@@ -152,66 +153,99 @@
 
 
 
-                            <p id="diseño">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
-                            
+                           
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">Primero se visualizó los materiales a requirir, posteriormente se configuró el Arduino como progrqamador para posteriormente poder subir los programas al Attiny85 t poder realizar los ejercicios de la simulación.</p>
+                            <p class="fs-6 mb-4">El proceso de armado en físico fue colocar los elementos de la simulación y ibtener el probrama de la plataforma de Thinkercad, en algunos casos era necesario colocar una fuente de poder para poder mover los motores DC, además de que tambén se llegó a necesitar cambiar la configuración del Attiny85 a 8 MHz en algunos casos.</p>
                             
 
                             <p id="resultados">
                                 <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                                <p class="fs-6 mb-4">Al momento de comparar las simulaciones con los circuitos en físico, se puede ver que en raelidad cada uno de ellos es idéntico.</p>
-
+                                <p class="fs-6 mb-4">Al momento de comparar las simulaciones con los circuitos en físico, se puede ver que en raelidad cada uno de ellos es idéntico. Al momento de implemantar el LED RGB y conectarlo en físico cambiaba un poco a cómo se enuentra debido a que las conexiones estaban en diferentes lugares.</p>
+                                <p class="fs-6 mb-4">Para ciertos ejercicios hay que configuarar el Attiny a 8 MHz.</p>
                                 
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/1.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
+                                <p class="fs-6 mb-4">1.Con el botón derecho se prende el led y con el izquierdo se apaga.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/2.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
+                                <p class="fs-6 mb-4">2.Con el botón derecho se prende el led y con el izquierdo se apaga.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/3.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
+                                <p class="fs-6 mb-4">3.Si se presiona el botón derecho hace ruido, si es el izquierdo apaga.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/4.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
+                                <p class="fs-6 mb-4">4.Con el botón Izquierdo prende el led de color azul y con el botón derecho lo prende de color rojo.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/5.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
+                                <p class="fs-6 mb-4">5.Prende el led color verde con el botón derecho y lo apaga con el botón izquierdo.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/6.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
+                                <p class="fs-6 mb-4">6.Prende el motor DC con el botón derecho y lo apaga con el botón izquierdo.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/7.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
+                                <p class="fs-6 mb-4">7.Prende el led con una atenuación .</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/8.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
+                                <p class="fs-6 mb-4">8.Con el botón derecho se enciende poco apoco el led y con el botón izquierdo se va a apagando.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/9.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">9.Nos muestra el funcionamiento del buzzer.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/10.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">10.Prende el buzzer con el botón derecho y lo apaga con el izquierdo.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/11.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">11.Apaga el motor con el izquierdo y lo prende con el derecho.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/12.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">12.Pone la posición del servomotor en 90°.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/13.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">13.Mueve un poco el servomotor.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/14.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">14.Va cambiando el color del led.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/15.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">15.Cambia el color de los leds con la activación de los botones.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/16.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">16.Va prendiendo leds en ascenso.</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/17.mp4" type="video/mp4">
+                                </video></p></figure>
+                                <p class="fs-6 mb-4">17.Prende más leds conforme se aprieta el botón derecho y menos con el botón izquierdo.</p>
+                               
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Con esta práctica se pudo analizar que el color que se observa en los LEDS RGB depende de la programación, adempás de que se pude visualizar de igual manera en los neopixeles.</p>
+                        <p class="fs-6 mb-4">Además de que con el PWM si se logró observar como es que en sus debidos casos tenían su regulación de potencia para funcionar como en los casos de los LEDS en donde se observó que parpadeaban debido al PWM.</p>
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">UAEH. (s/f). LED RGB. Edu.mx. Recuperado el 4 de octubre de 2023, de http://ceca.uaeh.edu.mx/informatica/oas_final/OA4/led_rgb.html</p>
+                        <p class="fs-6 mb-4">UAEH. (s/f). Buzzer. Edu.mx. Recuperado el 4 de octubre de 2023, de http://ceca.uaeh.edu.mx/informatica/oas_final/OA4/buzzer.html</p>
+                        <p class="fs-6 mb-4">Motor DC. (2022, agosto 25). SDI. https://sdindustrial.com.mx/blog/que-es-un-motor-dc-y-para-que-sirve/</p>
                         
                         <p id="descargables">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
