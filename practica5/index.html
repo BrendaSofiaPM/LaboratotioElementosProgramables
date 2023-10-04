@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 2 | Ibero Puebla</title>
+        <title>Práctica 5 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica 2. Arduino Básico II</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 5. Pantalla OLED</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                         <img class="img-fluid rounded-circle" width="50px" src="img/Brenda.jpeg" alt="..." />
@@ -61,7 +61,7 @@
                         </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 28, 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
@@ -78,123 +78,58 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Se presenta una pantalla OLED en dónde muestra ON si se presiona un botón y OFF si no está presionado.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Las pantallas OLED permiten controlar pixeles para poder formar texto o gráficos, comparadas con las pantallas LCD, no necesitan retroiluminación haciendo que sean de mejor calidad y mayor contraste. OLED por sus siglas en inglés significa Organic Light-Emitting Diode que traducido sería diodo orgánico de emisión de luz. Para poder usarla es necesario contar con las librerías necesarias.(Lozano, 2020).</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Placa electrónica Arduino, 2 servomotores, un protoboard, 2 leds, 2 resistencias de 220 Ohms, 2 potenciómetros, cables y computadora con el programa.</p>
+                        <p class="fs-6 mb-4">Placa electrónica Arduino UNO, Attiny85, un protoboard, 1 resistencia de 220 Ohms, 1 botón, cables y computadora con el programa.</p>
 
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Para esta práctica se utilizó de base el siguiente link: https://wokwi.com/projects/344317868853166675 en dónde se remplaza el sensor que tiene con el botón.</p>
+                        <p class="fs-6 mb-4">Se editó el código de la misma página y se realizaron las conecciones necesarias entre el Attiny85, el botón y la pantalla OLED.</p>
                         
                         <p id="simulacion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">1_servo I</p>
-                            <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">2_servo II</p>
-                            <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">3_potenciometro_serial print</p>
-                            <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/3.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">4_servos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/5.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">5_servos invertidos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/6.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">6_servos independientes</p>
-                            <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/7.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">7_servos independientes y leds</p>
-                            <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/8.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">8_servo_fuente</p>
-                            <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/9.png" alt="..." /></figure>
-                    
-                            <p id="diseño">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">Pantalla OLED</p>
+                            <p class="fs-6 mb-4">El circuito contiene una Pnatalla OLED que al presionar el borón aparece el texto"ON" y cuando no se presiona muestra "OFF".</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.jpeg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.jpeg" alt="..." /></figure>
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">En esta práctica solo se ralizó la conexión nesasaria entre el Attiny85, la pantalla OLD y un botón.</p>
                             
 
                             <p id="resultados">
                                 <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                                <p class="fs-6 mb-4">Al momento de comparar las simulaciones con los circuitos en físico, se puede ver que en raelidad cada uno de ellos es idéntico.</p>
+                                <p class="fs-6 mb-4">Al momento de querer cambiar el programa de ejeplo con uno que funcionara con un botón fue cuestión de prueba y error hasta que se obtuvo el resultado deseado.</p>
 
                                 
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/1.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/2.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/3.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/4.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/5.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/6.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/7.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/8.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
+                                <p class="fs-6 mb-4">La pantalla OLED pone el texto "ON" cuando el botón está encendido, de lo contrario pone el texto "OFF".</p>
+                                
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Es importante conocer el alcance que llega a tener una pnatalla OLED y que se pude imprimir casi cualquier cosa enn ella, así como se debe conectar correctamente para que su funcionamiento logre verse de manera adecuada ya que si no se limpia la pantalla se llega a ver lo del anterior texto.</p>
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Lozano, R. (2020, julio 18). Pantalla oled i2c. Talos Electronics. https://www.taloselectronics.com/blogs/tutoriales/pantalla-oled-i2c</p>
                         
                         <p id="descargables">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A1.ino">1_servo I.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A2.ino">2_servo II.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A3.ino">3_potenciometro_serial print.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A4.ino">4_servos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A5.ino">5_servos invertidos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A6.ino">6_servos independientes.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A7.ino">7_servos independientes y leds.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A8.ino">8_servo_fuente.ino</a> </p>
-                </div>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A1.ino">Pantalla_OLED.ino</a> </p>
+                            
             </section>
 
             
