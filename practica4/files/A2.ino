@@ -22,12 +22,12 @@ void loop()
   
   if(flag==1){
     digitalWrite(2, HIGH);
-    delay(100);
+    delay(50);
     digitalWrite(2, LOW);
   }
   else{
     digitalWrite(2, LOW);
   }
   
-  delay(100);
+  delay(50);
 }

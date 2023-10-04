@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica 4. Attiny85 Outputs</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 2. Arduino Básico II</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                         <img class="img-fluid rounded-circle" width="50px" src="img/Brenda.jpeg" alt="..." />
@@ -61,7 +61,7 @@
                         </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 14, 2022</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
@@ -88,7 +88,7 @@
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Placa electrónica Arduino, un protoboard, cables, Attiny 85, 2 resistencias de 220 Ohms, 1 resistencia de 1 KOhms, 1 led, 2 botones, 1 buzzer, 1 led RGB, 1 motor DC, fuente de poder, 1 servomotor, 1 neopixel, 1 neopixel tira 5, y computadora con el programa.</p>
+                        <p class="fs-6 mb-4">Placa electrónica Arduino, 2 servomotores, un protoboard, 2 leds, 2 resistencias de 220 Ohms, 2 potenciómetros, cables y computadora con el programa.</p>
 
                         
                         <p id="desarrollo">
@@ -96,62 +96,33 @@
                         <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
                         <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
                         
-                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">1_Attiny LED - 2 Botones</p>
-                            <p class="fs-6 mb-4">Con el botón derecho se prende el led y con el izquierdo se apaga.</p>
+                        <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">1_servo I</p>
+                            <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">2_Attiny LED Blink - 2 Botones</p>
-                            <p class="fs-6 mb-4">Con el botón derecho se prende el led y con el izquierdo se apaga.</p>
+                            <p class="fs-6 mb-4">2_servo II</p>
+                            <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">3_Attiny Buzzer - 2 Botones</p>
-                            <p class="fs-6 mb-4">Si se presiona el botón derecho hace ruido, si es el izquierdo apaga.</p>
+                            <p class="fs-6 mb-4">3_potenciometro_serial print</p>
+                            <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/3.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">4_Attiny LED RGB - 2 Botones</p>
-                            <p class="fs-6 mb-4">Con el botón Izquierdo prende el led de color azul y con el botón derecho lo prende de color rojo.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/4.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">5_Attiny LED RGB contador - 2 Botones</p>
-                            <p class="fs-6 mb-4">Prende el led color verde con el botón derecho y lo apaga con el botón izquierdo.</p>
+                            <p class="fs-6 mb-4">4_servos</p>
+                            <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/5.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">6_Attiny Motor DC- 2 Botones</p>
-                            <p class="fs-6 mb-4">Prende el motor DC con el botón derecho y lo apaga con el botón izquierdo.</p>
+                            <p class="fs-6 mb-4">5_servos invertidos</p>
+                            <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/6.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">7_Attiny LED PWM</p>
-                            <p class="fs-6 mb-4">Prende el led con una atenuación.</p>
+                            <p class="fs-6 mb-4">6_servos independientes</p>
+                            <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/7.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">8_Attiny LED PWM - 2 Botones</p>
-                            <p class="fs-6 mb-4">Con el botón derecho se enciende poco apoco el led y con el botón izquierdo se va a apagando.</p>
+                            <p class="fs-6 mb-4">7_servos independientes y leds</p>
+                            <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/8.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">9_Attiny Buzzer PWM</p>
-                            <p class="fs-6 mb-4">Nos muestra el funcionamiento del buzzer.</p>
+                            <p class="fs-6 mb-4">8_servo_fuente</p>
+                            <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/9.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">10_Attiny Buzzer PWM - 2 Botones</p>
-                            <p class="fs-6 mb-4">Prende el buzzer con el botón derecho y lo apaga con el izquierdo.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/10.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">11_Attiny Motor DC PWM- 2 Botones</p>
-                            <p class="fs-6 mb-4">Apaga el motor con el izquierdo y lo prende con el derecho.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/11.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">12_Attiny Servomotor</p>
-                            <p class="fs-6 mb-4">Solo pone la posición del servomotor en 90°.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/12.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">13_Attiny Servomotor - 2 Botones</p>
-                            <p class="fs-6 mb-4">Mueve un poco el servomotor.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/13.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">14_Attiny Neopixel</p>
-                            <p class="fs-6 mb-4">Solo va cambiando el color del led.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/14.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">15_Attiny Neopixel - 2 Botones</p>
-                            <p class="fs-6 mb-4">Cambia el color de los leds con la activación de los botones.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/15.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">16_Attiny Neopixel Tira x 5 - 2 Botones</p>
-                            <p class="fs-6 mb-4">Va prendiendo leds en ascenso.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/16.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">17_Attiny Neopixel Tira x 5 - 2 Botones</p>
-                            <p class="fs-6 mb-4">Prende más leds conforme se aprieta el botón derecho y menos con el botón izquierdo.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/17.png" alt="..." /></figure>
-
-
-
-
+                    
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
                             <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
