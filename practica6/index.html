@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica 2. Arduino Básico II</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 6: Sensores digitales, analógicos e inteligentes</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                         <img class="img-fluid rounded-circle" width="50px" src="img/Brenda.jpeg" alt="..." />
@@ -61,10 +61,10 @@
                         </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 5, 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Attiny85</a>
 
                     </header>
                 </div>
@@ -78,122 +78,119 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Se visualiza los tres tipos de sensores que existen: analógicos, digitales e inteligentes. Dentro de la práctica se pueden ver 2 ejemplos realizados de cada uno de ellos.</p>
+                        
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Un sensor es un dispositivo qu enos permite detectar algún cambio y mide diferentes cosas del entorno permitiendo así obtener lecturas que pueden ser entendidas por nosotros (Smith, 2020).</p>
+                        <p class="fs-6 mb-4">Sensor digital: Es aquel que solo tiene valores de salida 0 ó 1, es decir, apagado o prendido.</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sensores analógicos.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Sensores inteligentes: Recopilan información más precisa y automatizada con menos ruido y se suelen utilizar para monitorear y controlar muchas aplicaciones científicas, realiza funciones predefinidas para detectar algo en specífico (Colaborador de TechTarget, 2021).</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sensores analógicos.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Sensores analógicos: es aquel que, como salida, emite una señal comprendida por un campo de valores instantáneos que varían en el tiempo, cambia de forma continua y por lo general tiene una salida cuyo tamaño es proporcional al tamaño  de  la  variable  que  se  esta  midiendo (Instituto Tecnológico de Boca del Río, 2020)</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sensores analógicos.png" alt="..." /></figure>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Placa electrónica Arduino, 2 servomotores, un protoboard, 2 leds, 2 resistencias de 220 Ohms, 2 potenciómetros, cables y computadora con el programa.</p>
+                        <p class="fs-6 mb-4">Arduino UNO, cables, Attiny85, 2 sensores digitales, 2 sensores analógicos y 2 inteligentes y computadora con el programa.</p>
 
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">En esta práctica decidí primero iniciar buscando 2 sensores analógico, 2 digitales y 2 inteligentes con los que se contara en la IBERO Puebla, posteriormente busqué progrmas en internet que me ayudarn a poder realizar la práctica.</p>
+                        <p class="fs-6 mb-4">También se buscó los diagramas de cada sensor para posteriormente relizar las simulaciones y por último la tabla de los 30 sensores.</p>
                         
                         <p id="simulacion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">1_servo I</p>
-                            <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
+                            <p class="fs-6 mb-4">Sensores digitales</p>
+                            <p class="fs-6 mb-4">Botón</p>
+                            <p class="fs-6 mb-4">Si está prendido el botón se enciende el led.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">2_servo II</p>
-                            <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
+                            <p class="fs-6 mb-4">DipSwitch</p>
+                            <p class="fs-6 mb-4">Si el DipSwitch se prende el led también.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">3_potenciometro_serial print</p>
-                            <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
+                            <p class="fs-6 mb-4">Sensores inteligentes</p>
+                            <p class="fs-6 mb-4">Humedad</p>
+                            <p class="fs-6 mb-4">Cuando se coloca el sensor en tierra mojada enciende el led.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/3.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">4_servos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
+                            <p class="fs-6 mb-4">Ultrasónico</p>
+                            <p class="fs-6 mb-4">Cuando se acerca un objeto a menos de 10 cm se prende el led.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/5.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">5_servos invertidos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
+                            <p class="fs-6 mb-4">Sensores analógicos</p>
+                            <p class="fs-6 mb-4">Potenciómetro</p>
+                            <p class="fs-6 mb-4">Con el valor de potenciómetro se realiza la converción de tiempo de espera para prender y apagar un led.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/6.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">6_servos independientes</p>
-                            <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
+                            <p class="fs-6 mb-4">Temperatura</p>
+                            <p class="fs-6 mb-4">Cuando la temperatura es mayor de 25° se prende el led.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/7.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">7_servos independientes y leds</p>
-                            <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/8.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">8_servo_fuente</p>
-                            <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/9.png" alt="..." /></figure>
-                    
-                            <p id="diseño">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">Lo primero era conseguir los materiales, construir el ciercuito basado en las instrucciones de los códigos obtenidos con sus respectivos diagramas.</p>
+                            <p class="fs-6 mb-4">En caso de que no funcionara algún sensor podía ser debido a que no se encontraran las librerías necesarias para que funcionara el programa, o en dado caso los progrmas obtenidos no funcionaban y se tenían que realizar nuevos.</p>
                             
 
                             <p id="resultados">
                                 <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                                <p class="fs-6 mb-4">Al momento de comparar las simulaciones con los circuitos en físico, se puede ver que en raelidad cada uno de ellos es idéntico.</p>
-
                                 
+
+                                <p class="fs-6 mb-4">Sensores digitales</p>
+                                <p class="fs-6 mb-4">Botón</p>
+                                <p class="fs-6 mb-4">Si está prendido el botón se enciende el led.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/1.mp4" type="video/mp4">
+                                    <source src="video/Boton.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
+                                <p class="fs-6 mb-4">DipSwitch</p>
+                                <p class="fs-6 mb-4">Si el DipSwitch se prende el led también.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/2.mp4" type="video/mp4">
+                                    <source src="video/DipSwitch.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
+                                <p class="fs-6 mb-4">Sensores inteligentes</p>
+                                <p class="fs-6 mb-4">Humedad</p>
+                                <p class="fs-6 mb-4">Cuando se coloca el sensor en tierra mojada enciende el led.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/3.mp4" type="video/mp4">
+                                    <source src="video/Humedad.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
+                                <p class="fs-6 mb-4">Ultrasónico</p>
+                                <p class="fs-6 mb-4">Cuando se acerca un objeto a menos de 10 cm se prende el led.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/4.mp4" type="video/mp4">
+                                    <source src="video/Ultrasonico.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
+                                <p class="fs-6 mb-4">Sensores analógicos</p>
+                                <p class="fs-6 mb-4">Potenciómetro</p>
+                                <p class="fs-6 mb-4">Con el valor de potenciómetro se realiza la converción de tiempo de espera para prender y apagar un led.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/5.mp4" type="video/mp4">
+                                    <source src="video/Potenciometro.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
+                                <p class="fs-6 mb-4">Temperatura</p>
+                                <p class="fs-6 mb-4">Cuando la temperatura es mayor de 25° se prende el led.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/6.mp4" type="video/mp4">
+                                    <source src="video/Temperatura.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/7.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/8.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
+                                
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Para la realización de praáctica es importante tener la hoja de datos de cada sensor que se quiere llevar a cabo, esto debido a que a veces no funciona un sensor por el simple hecho de que no se conectó correctamente. Dentro de esta práctica también se pudo visualizar que es de gran ventaja conocer la mayor cantidad de sensores para poder así tener idea de cuál es más conveniente utilizar en que caso.</p>
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Smith, G. M. (9 de marzo de 2020). ¿Qué es un sensor y qué hace? Soluciones de Adquisición de Datos (DAQ). https://dewesoft.com/es/blog/que-es-un-sensor</p>
+                        <p class="fs-6 mb-4">Instituto Tecnológico de Boca del Río. (27 de abril de 2020). Sensores Analógicos Y Digitales. Studocu. Retrieved October 26, 2023, from https://www.studocu.com/es-mx/document/instituto-tecnologico-de-boca-del-rio/instrumentacion-y-control/sensores-analogicos-y-digitales/7951931</p>
+                        <p class="fs-6 mb-4">Colaborador de TechTarget. (2021, January 26). Sensor inteligente. ComputerWeekly.es; TechTarget. https://www.computerweekly.com/es/definicion/Sensor-inteligente</p>
                         
                         <p id="descargables">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A1.ino">1_servo I.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A2.ino">2_servo II.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A3.ino">3_potenciometro_serial print.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A4.ino">4_servos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A5.ino">5_servos invertidos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A6.ino">6_servos independientes.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A7.ino">7_servos independientes y leds.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A8.ino">8_servo_fuente.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/boton.ino">Botón.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/DipSwitch.ino">DipSwitch.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/humedad.ino">Humedad.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/ultrasonico.ino">Ultrasónico.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/potenciometro.ino">Potenciómetro.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/temperatura.ino">Temperatura.ino</a> </p>
+                            
                 </div>
             </section>
 
