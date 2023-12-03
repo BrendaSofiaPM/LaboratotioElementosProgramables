@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 2 | Ibero Puebla</title>
+        <title>Práctica 7 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica 2. Arduino Básico II</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 7. BIOARMBAND</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                         <img class="img-fluid rounded-circle" width="50px" src="img/Brenda.jpeg" alt="..." />
@@ -61,7 +61,7 @@
                         </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Diciembre 1, 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
@@ -78,122 +78,76 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Se realizó una pulsera tipo reloj inteligente para usuarios humanos con el proósito de ver la frecuncia cardiaca y oxigenación, para el caso del perro fue un sensor de temperatura que avisa cuando este tiene un golpe de calor.</p>
+                        
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Un wearable es un dispositivo conectado que se puede llevar puesto, ya que a cualquier objeto se le puede añadir un componente que lo hará inteligente. Los más habituales registran aquello que no podemos ver a simple vista, como la frecuencia cardíaca, nuestra frecuencia respiratoria, las horas de sueño, el bienestar o el estrés. Algunos ejemplos de wearables son objetos como gafas, auriculares, pulseras, camisetas, cinturones, relojes, calcetines o zapatos. Muchos suelen confundirlos con los teléfonos inteligentes, pero la diferencia es que estos están integrados en nuestro cuerpo, liberando de alguna manera las manos del usuario (Kinza Yasar & Wigmore, 2022).</p>
+                        <p class="fs-6 mb-4">El Attiny85, un pequeño microcontrolador, con el que podremos realizar pequeños proyectos, en los que no necesitamos gran cantidad de memoria ni de entradas ni de salidas. Este micro lo podremos programar con nuestro entorno de escritorio Arduino. Existe un proceso completo en el que puedes programar tu Arduino para programar tu Attiny85 (“Electromaker”, 2017).</p>
+                        <p class="fs-6 mb-4">El MAX30102 es un módulo biosensor de monitorización de frecuencia cardíaca y oximetría de pulso integrado. Incluye LED internos, fotodetectores, elementos ópticos y electrónica de bajo ruido con rechazo de luz ambiental. El MAX30102 proporciona una solución de sistema completa para facilitar el proceso de diseño de dispositivos móviles y portátiles (“MAX30102 Datasheet and Product Info | Analog Devices”, 2015).</p>
+                        <p class="fs-6 mb-4">El sensor GY-906 MLX90614 puede medir la temperatura ambiente en función de la resistencia del termistor en la placa. Conecte la línea de alimentación del módulo (centro) y tierra (-) a 5V y GND en el Arduino respectivamente. Conecte el pin de señal del módulo (S) al pin A0 del Arduino.</p>
                         
+
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Placa electrónica Arduino, 2 servomotores, un protoboard, 2 leds, 2 resistencias de 220 Ohms, 2 potenciómetros, cables y computadora con el programa.</p>
+                        <p class="fs-6 mb-4">Placa electrónica Arduino, Attiny85, botón, resistencia de 220 Ohms, Pantalla OLED, MAX30102, GY-906 MLX90614, cables y computadora con el programa.</p>
 
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Para la parte del sensor de oxigenación y pulsos cardiacos nos basamos en el siguine proyecto: https://www.hackster.io/jeffreymagee/attiny85-pulse-oximeter-and-photoplethysmograph-e3f907 </p>
+                        <p class="fs-6 mb-4">Los cambios que se llegaron a relizar fueron para que solo vieramos la prate de los cálculos de los sensores, y para la parte de la temperatura ffue un programa más sencillo ya que existe también en la parte ejemplos de las librerías que se usan para los sensores.</p>
                         
-                        <p id="simulacion">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">1_servo I</p>
-                            <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">2_servo II</p>
-                            <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">3_potenciometro_serial print</p>
-                            <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/3.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">4_servos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/5.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">5_servos invertidos</p>
-                            <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/6.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">6_servos independientes</p>
-                            <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/7.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">7_servos independientes y leds</p>
-                            <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/8.png" alt="..." /></figure>
-                            <p class="fs-6 mb-4">8_servo_fuente</p>
-                            <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/9.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Sensor de oxigenación con pulso cardiaco.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1.jpeg" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Sensor de oxigenación y pulso cardiaco junto al de temperatura expuestos en Expo IBERO.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2.jpeg" alt="..." /></figure>
+                            
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">Para el diseño de este proyecto se concluyoó en que para el perro se podría el sensor de temperatura que por medio de una pantalla que se puede apagar con un botó y prenderlo con el mismo estuviera detectanddo la temperatura de un perro y en el momento en que le diera un golpe de calor nos avise por medio de un buzzer. Todo esto colocado en una PCB que iría en su collar del perro.</p>
+                            <p class="fs-6 mb-4">En el caso de la parte del usuario humano es una pulsera tipo reloj en el que se puede ver una gráfica del sensor cardiaco y a la derecha los números que indican el puslso que tiene así acomo la oxigenación.</p>
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <p class="fs-6 mb-4">Para la construcción de este circuito se buscó la manera de poder hacer en un solo prototipo los tres sensores inculidos, pero debido al tamaño que tiene el Attiny85 no se pudo conseguir. La solución fue dividir en dos circuitos diferentes con finalidades diferentes a las iniciales, el sensor de temperatura para perro y el de frecuncia cardiaca con oximetro para el humano.</p>
+                            <p class="fs-6 mb-4">Primero se prototipó en protoboards para posteriormente planchar el circuito en placa de cobre y que no tuviera cables el collar y pulcera.</p>
                             
 
                             <p id="resultados">
                                 <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                                <p class="fs-6 mb-4">Al momento de comparar las simulaciones con los circuitos en físico, se puede ver que en raelidad cada uno de ellos es idéntico.</p>
-
-                                
+                                                                
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/1.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor se mueve de 0 a 90 grados, de 90 a 180 grados y se repite.</p>
+                                <p class="fs-6 mb-4">PCB del circuito propuesto para el collar del perro y detectar si le dio golpe de calor al detectar temperatura arriba de lo correcto para posteriormente hacer sonar el buzzer.</p>
                                 <figure class="mb-4" align="center"><video width="80%"  controls>
                                     <source src="video/2.mp4" type="video/mp4">
                                 </video></p></figure>
-                                <p class="fs-6 mb-4">El sevomotor se mueve de un lado al otro de manera constante.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/3.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Conforme se mueve el potenciometro, se ve las lecturas que tiene la ventana del serial monitor.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/4.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven al mismo sentido que va girando el potenciómertro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/5.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Ambos servomotores se mueven pero en sentidos opuestos entre ellos conforme va girando el potenciómertro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/6.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Se mueve un servomotor al mismo sentido que un potenciómetro, y el otro servomotor se mueve con el otro potenciómetro.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/7.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">El servomotor izquierdo se mueve con el potenciómetro izquiero y cuando llegan a un extremo prende el led rojo, o del otro extremo prende el led verde.</p>
-                                <figure class="mb-4" align="center"><video width="80%"  controls>
-                                    <source src="video/8.mp4" type="video/mp4">
-                                </video></p></figure>
-                                <p class="fs-6 mb-4">Mueve el servomotor con una fuente externa.</p>
+                                <p class="fs-6 mb-4">PCB del circuito para usuario humano que detecta la frecuencia cardiaca y oxigenación.</p>
+                               
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4">Después de este proyecto final pude aprende a que a pesar de que no se haya podido realizar la PCB con una empresa para que se pudiera ver más estética, deigual manera la podemos hacer nostos mismos con la técnica de planchado.</p>
+                        <p class="fs-6 mb-4">Además, estuvo interesante tener que aprender a leer bibliotecas de programación que llegana  crear los usarios, así acomo también tomar en cuanta el espacdio que va a requerir nustro proyecto para que no tengamos dificulatdes de ese tipo al final.</p>
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Electrofabricante. (2017). Obtenido el 26 de octubre de 2023 del sitio web Electromaker.io: https://www.electromaker.io/blog/article/introduction-to-the-attiny85-19</p>
+                        <p class="fs-6 mb-4">Kinza Yasar y Wigmore, I. (2022). tecnología usable. Obtenido el 26 de octubre de 2023 del sitio web de Mobile Computing: https://www.techtarget.com/searchmobilecomputing/definition/wearable-technology</p>
+                        <p class="fs-6 mb-4"> MAX30102 Hoja de datos e información del producto | Dispositivos analógicos. (2015). Obtenido el 26 de octubre de 2023 del sitio web Analog.com: https://www.analog.com/en/products/max30102.html#product-overview</p>
+                        <p class="fs-6 mb-4">Termómetro infrarrojo digital plug & play en un TO-can. (2023). Obtenido el 26 de octubre de 2023 del sitio web de Melexis: https://www.melexis.com/en/product/mlx90614/digital-plug-play-infrared-thermometer-to-can#:~:text=The%20MLX90614%20is %20an%20infrarrojo,el%20mismo%20TO%2D39%20can.</p>
                         
                         <p id="descargables">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A1.ino">1_servo I.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A2.ino">2_servo II.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A3.ino">3_potenciometro_serial print.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A4.ino">4_servos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A5.ino">5_servos invertidos.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A6.ino">6_servos independientes.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A7.ino">7_servos independientes y leds.ino</a> </p>
-                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/A8.ino">8_servo_fuente.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/tinyPulsePPG.zip">tinyPulsePPG.zip</a> </p>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/Temperatura_Pantalla.ino">Temperatura_Pantalla.ino</a> </p>
+                            <p class="fs-6 mb-4">Descargar circuito para PBC: <a href="files/pcb.pdf">pcb.pdf</a> </p>
+                            
                 </div>
             </section>
 
